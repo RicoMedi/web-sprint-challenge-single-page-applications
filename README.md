@@ -28,10 +28,10 @@ Commit your code regularly and meaningfully. This helps you in case you ever nee
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not BloomTech's by mistake!)
-- [ ] Implement the project on the main branch, committing changes regularly
-- [ ] Push commits: `git push origin main`
+- [x] Create a forked copy of this project
+- [x] Clone your OWN version of the repository (Not BloomTech's by mistake!)
+- [x] Implement the project on the main branch, committing changes regularly
+- [x] Push commits: `git push origin main`
 
 **Note on React Router versions:**
 
@@ -47,10 +47,10 @@ npm i react-router-dom@5.3.4
 
 Your finished project must include all of the following requirements:
 
-- [ ] The `App` component is wrapped in `BrowserRouter` - complete this requirement in the `index.js` module
-- [ ] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
-- [ ] A order form that has a "/pizza" route and shows the form
-- [ ] A form with an id of "pizza-form"
+- [x] The `App` component is wrapped in `BrowserRouter` - complete this requirement in the `index.js` module
+- [x] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
+- [x] A order form that has a "/pizza" route and shows the form
+- [x] A form with an id of "pizza-form"
 - [ ] A name text input field with an id of "name-input"
 - [ ] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
 - [ ] A dropdown for pizza size with an id of "size-dropdown"
