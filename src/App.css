@@ -6,7 +6,9 @@
    
    
 }
-
+h2{
+  font-size: 50px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -141,4 +143,34 @@ nav {
 
 .md-button:disabled::after {
   opacity: 0;
+}
+
+#pizza-form{
+  background-color: #fcfcfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: ;
+
+}
+
+Label{
+ font-size: 20px
+
+}
+
+.errors {
+  margin: 8px;
+  font-size: 1.2em;
+  color: red;
+}
+
+#special-text{
+ height: 50px;
+}
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
