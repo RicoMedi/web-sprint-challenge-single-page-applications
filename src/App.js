@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import { Routes, Route, Link } from 'react-router-dom'
 import "../src/App.css"
 import Home from './components/Home'
-import Pizza from './components/Pizza'
+import Pizza from "./components/Pizza";
 
 import axios from "axios";
 import schema from './components/schema'
@@ -19,13 +19,14 @@ export default function App() {
   size: '',
   topping1: false,
   topping2: false,
-  special: '',
+  specialInstructions: '',
   
 }
 const startingformErrors= {
  name: '',
  size: '',
- special: '',
+ specialInstructions:'',
+ 
 
 }
 
@@ -78,7 +79,7 @@ const submitOrder = () => {
   name: formValues.name.trim(),
   size: formValues.size.trim(),
   toppings: ['peperoni', 'cheese', 'olives', 'onions'].filter(piz => !!formValues[piz]),
-  special_instructions: formValues['special instructions'], // Use the correct name with an underscore
+  specialInstructions: formValues['specialInstructions'], // Use the correct name with an underscore
 };
 
 postNewOrder(newOrder);
@@ -94,7 +95,7 @@ return (
               <div className="nav-links">
                 <Link to="/"> Home</Link> 
                 <Link to="/pizza"> Order </Link>
-                <Link to="/order">Order Summary </Link>
+                
               </div>
         </nav>
     

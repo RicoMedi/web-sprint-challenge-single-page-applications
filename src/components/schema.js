@@ -9,7 +9,7 @@ const schema = yup.object().shape({
  
   size: yup
     .string()
-    .oneOf(['small', 'medium', 'large', 'xl', 'none'], 'Choose a size'),
+    .oneOf(['small', 'medium', 'large', 'xl', ], 'Choose a size'),
 
   peperoni:yup
   .boolean(),

@@ -39,7 +39,7 @@ export default function Pizza(props) {
           
               <div>{errors.name}</div>
               <div>{errors.size}</div>
-              <div>{errors.toppings}</div>
+              
               </div>
     
 
@@ -67,11 +67,11 @@ export default function Pizza(props) {
                   name='size'
                 >
                   <option value=''>- Select an option -</option>
-                  <option value='small'>small</option>
+                  <option value='small'>Small</option>
                   <option value='medium'>Medium</option>
                   <option value='large'>Large</option>
                   <option value='xl'> Extra Large</option>
-                  <option value='none'>None</option>
+                
                 
                 </select>
               </label>
